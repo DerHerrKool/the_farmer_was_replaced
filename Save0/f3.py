@@ -30,7 +30,7 @@ while True:
 			plant(Entities.Carrot)
 		else:
 			plant(Entities.Bush)	
-	move(East)
+	#move(East)
 	#break
 	
 		
