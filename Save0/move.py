@@ -1,0 +1,2 @@
+move(West)
+move(South)
