@@ -1,0 +1,49 @@
+i = 0
+step = 1
+while i < 10:
+    print(i)
+    step += 1      # change step however you like
+    i += step 
+
+
+
+position = 0
+end = 20
+
+step_sizes = [3, 5, 2, 4, 6]  # you can change these however you like
+
+for step in step_sizes:
+    # walk this segment
+    for _ in range(step):
+        # do something at current position
+        print(position)
+        position += 1
+
+    if position >= end:
+        break
+
+    #Outer loop: chooses the current step size (and you can change that list, or compute it).
+`   #Inner loop: moves that many times, one cell at a time, doing your work.
+    #No single range(start, end, step) dictates everything; you control how far each segment moves.
+
+
+
+
+position = 0
+end = 20
+
+step_sizes = [3, 5, 2, 4, 6]  # can be anything, can change
+
+i = 0
+while position < end and i < len(step_sizes):
+    step = step_sizes[i]
+    print("starting segment with step size:", step)
+
+    # move step times
+    count = 0
+    while count < step and position < end:
+        print("at position:", position)
+        position += 1
+        count += 1
+
+    i += 1
