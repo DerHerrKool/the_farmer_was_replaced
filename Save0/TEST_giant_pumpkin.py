@@ -5,7 +5,7 @@ def ground_soiling():
 	if get_ground_type() != Grounds.Soil:
 		till()
 
-counter = 1
+counter = 5
 pumpkin_num = 0
 stop = False
 while stop == False:

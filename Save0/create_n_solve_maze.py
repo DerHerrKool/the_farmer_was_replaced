@@ -81,7 +81,7 @@ def drone_hunt():
 			return 1
 
 while True:
-	for i in range(8):
+	for i in range(16):
 		spawn_drone(drone_hunt)
 		move (North)
 	if create_maze():
