@@ -1,5 +1,5 @@
 #Single tile logic
-from dispatcher import decide_tile
+from aa_dispatcher import decide_tile
 def handle_tile(x, y):
 	tile_info = {
 		"can_harvest": can_harvest(),

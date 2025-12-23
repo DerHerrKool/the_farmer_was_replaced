@@ -1,9 +1,9 @@
 #Connecting everything together
-import moves
-import farming
-import dispatcher
+import aa_moves
+import aa_farming
+import aa_dispatcher
 while True:
-	moves.move_over_farm(farming.handle_tile)
+	aa_moves.move_over_farm(aa_farming.handle_tile)
 	
 					
 		
