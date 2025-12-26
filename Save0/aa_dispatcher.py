@@ -33,7 +33,7 @@ def allowed_tree_position (x, y):
 
 
 
-#def plant_carrot():
+##def plant_carrot():
 	#if get_ground_type() != Grounds.Grassland:
 		#till()
 		#plant(Entities.Carrot)
